@@ -4,6 +4,9 @@
 
 body {
     background-color: #1f2937;
+
+/**********  HEADER  ************/
+
 }
 .nav-bar{
     display: flex;
@@ -36,4 +39,19 @@ a {
     margin-left: auto;
     margin-right: 10%;
     align-items: center;
+}
+
+/********** PAGE CONTENT ************/
+
+.page-top {
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    max-width: 450px;
+}
+
+#lander-img {
+    max-width: 24%;
 }
