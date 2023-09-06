@@ -155,3 +155,61 @@ a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
+/********* CALL TO ACTION ***************/
+
+.call-to-action {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action .blue-box h1 {
+    margin: 0;
+    font-size: 21px;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    width: 70%;
+    margin: 70px 0px 70px 0px;
+}
+
+.cta-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.blue-box p {
+    margin: 0;
+}
+
+.cta-content button {
+    color: white;
+    width: 100px;
+    height: 50px;
+    border:none;
+    border:solid 2px white;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 15px;
+}
+
+.cta-content button:hover {
+    opacity: .7;
+}
+
+
+/********* FOOTER ***************/
+
+footer {
+    background:#1F2937 ;
+    color: rgb(239, 238, 238, .8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+}
